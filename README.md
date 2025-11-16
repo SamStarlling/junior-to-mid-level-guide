@@ -42,6 +42,43 @@ This roadmap is designed to help junior developers systematically develop the sk
   - Database normalization basics
   - Understanding primary and foreign keys
 
+### Security Fundamentals (Junior Level)
+
+- **HTTPS & SSL/TLS**
+  - Understanding HTTPS vs HTTP
+  - SSL/TLS certificates basics
+  - Using Let's Encrypt for free certificates
+  - Preventing Man-in-the-Middle (MITM) attacks
+
+- **Input Validation & Sanitization**
+  - Always validate user input
+  - Prevent SQL Injection attacks
+  - Prevent Cross-Site Scripting (XSS)
+  - Using validation libraries (Joi, Zod, class-validator)
+
+- **Password Security**
+  - Never store passwords in plaintext
+  - Using bcrypt or Argon2 for password hashing
+  - Salting passwords
+  - Understanding password strength requirements
+
+- **Authentication Basics**
+  - Session management fundamentals
+  - JWT (JSON Web Tokens) basics
+  - Secure cookie configuration (httpOnly, secure flags)
+  - Basic OAuth 2.0 understanding
+
+- **Environment Variables & Secrets**
+  - Never commit secrets to Git
+  - Using .env files properly
+  - Understanding .gitignore for sensitive files
+  - Basic secrets management
+
+- **CORS (Cross-Origin Resource Sharing)**
+  - Understanding CORS policies
+  - Configuring CORS properly
+  - Preventing unauthorized cross-origin requests
+
 ### Version Control
 
 - **Git & GitHub Basics**
@@ -90,12 +127,12 @@ This roadmap is designed to help junior developers systematically develop the sk
   - Prompt engineering basics
   - AI-assisted debugging and code review
 
-- **Frontend Frameworks** *(Added based on market research)*
+- **Frontend Frameworks**
   - React, Vue.js, or Angular
   - Component-based architecture
   - State management basics
 
-- **Problem-Solving & Algorithms** *(Added based on market research)*
+- **Problem-Solving & Algorithms**
   - Basic data structures (arrays, objects, lists)
   - Simple algorithm problems
   - Logical thinking and debugging skills
@@ -107,7 +144,7 @@ This roadmap is designed to help junior developers systematically develop the sk
   - Client-server architecture
   - Basic networking concepts (HTTP/HTTPS, DNS)
 
-- **Command Line/Terminal** *(Added based on market research)*
+- **Command Line/Terminal**
   - Basic bash/shell commands
   - File system navigation
   - Package managers (npm, yarn)
@@ -192,6 +229,81 @@ This roadmap is designed to help junior developers systematically develop the sk
   - Linked lists and queues
   - Practical applications
 
+### Advanced Security (Mid-Level)
+
+- **OWASP Top 10**
+  - Understanding all OWASP Top 10 vulnerabilities
+  - Injection attacks (SQL, NoSQL, Command)
+  - Broken Authentication and Session Management
+  - Sensitive Data Exposure
+  - XML External Entities (XXE)
+  - Broken Access Control
+  - Security Misconfiguration
+  - Cross-Site Scripting (XSS) - advanced
+  - Insecure Deserialization
+  - Using Components with Known Vulnerabilities
+  - Insufficient Logging & Monitoring
+
+- **Advanced Authentication & Authorization**
+  - OAuth 2.0 flows (Authorization Code, Client Credentials)
+  - OpenID Connect (OIDC)
+  - JWT best practices and pitfalls
+  - Refresh token rotation
+  - Multi-factor authentication (MFA) implementation
+  - Role-Based Access Control (RBAC)
+  - Attribute-Based Access Control (ABAC)
+  - API keys management
+
+- **API Security**
+  - Rate limiting and throttling
+  - API versioning strategies
+  - API gateway security
+  - Request signing and validation
+  - Preventing API abuse
+  - GraphQL security considerations
+
+- **Data Protection**
+  - Encryption at rest and in transit
+  - Key management strategies
+  - Data masking and anonymization
+  - GDPR and data privacy compliance basics
+  - Secure file upload handling
+  - Protection against data leakage
+
+- **Security Testing**
+  - Static Application Security Testing (SAST)
+  - Dynamic Application Security Testing (DAST)
+  - Dependency vulnerability scanning
+  - Penetration testing basics
+  - Security code reviews
+
+- **Secure Development Practices**
+  - Security in CI/CD pipelines
+  - Secrets management (HashiCorp Vault, AWS Secrets Manager)
+  - Container security (Docker image scanning)
+  - Secure coding guidelines
+  - Threat modeling basics
+  - Security headers (CSP, HSTS, X-Frame-Options)
+
+- **Web Application Firewall (WAF)**
+  - Understanding WAF functionality
+  - Cloud-based WAF (Cloudflare, AWS WAF)
+  - DDoS protection strategies
+  - Bot detection and mitigation
+
+- **Secure Session Management**
+  - Session fixation prevention
+  - Session timeout configuration
+  - Secure session storage
+  - CSRF (Cross-Site Request Forgery) protection
+
+- **Security Monitoring & Incident Response**
+  - Security event logging
+  - Intrusion detection basics
+  - Identifying security incidents
+  - Basic incident response procedures
+  - Security audit trails
+
 ### Advanced Testing
 
 - **Testing Strategies**
@@ -214,7 +326,7 @@ This roadmap is designed to help junior developers systematically develop the sk
   - Deployment strategies (blue-green, canary)
   - Infrastructure as Code basics (Terraform, CloudFormation)
 
-- **Containerization** *(Added based on market research)*
+- **Containerization**
   - Docker fundamentals
   - Docker Compose
   - Container orchestration basics (Kubernetes intro)
@@ -233,16 +345,7 @@ This roadmap is designed to help junior developers systematically develop the sk
   - Performance monitoring
   - Debugging production issues
 
-### Security & Best Practices *(Added based on market research)*
-
-- **Security Fundamentals**
-  - Authentication vs Authorization
-  - JWT and session management
-  - Common vulnerabilities (OWASP Top 10)
-  - API security best practices
-  - Environment secrets management
-
-### Soft Skills & Collaboration *(Added based on market research)*
+### Soft Skills & Collaboration
 
 - **Technical Communication**
   - Writing technical documentation
@@ -289,7 +392,7 @@ Found something missing? Have a resource to add? Contributions are welcome!
 
 ---
 
-## License
+## 📝 License
 
 This guide is open source and available under the MIT License.
 
