@@ -16,7 +16,7 @@ This roadmap is designed to help junior developers systematically develop the sk
 
 ---
 
-## 🚀 Junior Developer Skills
+## Junior Developer Skills
 
 ### Core Programming & Fundamentals
 
@@ -122,7 +122,7 @@ This roadmap is designed to help junior developers systematically develop the sk
 
 ---
 
-## 🎯 Mid-Level Developer Skills
+## Mid-Level Developer Skills
 
 ### Advanced Database Management
 
@@ -261,7 +261,7 @@ This roadmap is designed to help junior developers systematically develop the sk
 
 ---
 
-## 📚 How to Use This Guide
+## How to Use This Guide
 
 1. **Assess Your Current Level**: Review the Junior Developer Skills section and identify gaps
 2. **Create a Learning Plan**: Choose 2-3 topics to focus on at a time
@@ -279,7 +279,7 @@ This roadmap is designed to help junior developers systematically develop the sk
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Found something missing? Have a resource to add? Contributions are welcome!
 
@@ -289,7 +289,7 @@ Found something missing? Have a resource to add? Contributions are welcome!
 
 ---
 
-## 📝 License
+## License
 
 This guide is open source and available under the MIT License.
 
